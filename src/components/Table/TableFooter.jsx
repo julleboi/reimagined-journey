@@ -6,7 +6,7 @@ import Typography from '@material-ui/core/Typography';
 
 const Wrapper = ({ children }) => {
   return (
-    <Box data-testid='tableFooterElement' textAlign='center' p={2}>
+    <Box textAlign='center' p={2}>
       { children }
     </Box>
   );
