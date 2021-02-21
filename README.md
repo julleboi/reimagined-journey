@@ -1,3 +1,30 @@
+## My implementation
+___
+
+### Installed packages
+- React router
+- Prettify (for inline snapshots)
+
+### Tests
+- Table
+  - Calls API and fills table on mount
+  - Sorts data
+  - Reverses data after clicking toggle order
+- Table header
+  - Renders given column names correctly
+- Table body
+  - Renders correct amount of cells
+- Table footer
+  - Triggers the callback on click
+  - Renders a spinner when loading
+  - Renders an error when expected
+- Table row
+  - Renders cells correctly
+
+### Additional features
+- Navigation bar integration with React Router
+___
+
 # React frontend assignment
 
 ## Description
@@ -5,12 +32,12 @@
 Your task is to implement a component or a set of components allowing the users to fetch and display change history of **users** and **projects** in separate tables according to the designs and requirements below. You can use the provided packages and add new ones if necessary. Please provide unit tests for your code.
 
 ## Requirements
-- Handle the loading state
-- Handle the error state (every second call to fetch users or projects will result in an error)
-- Make sure the table can be browsed also on smaller screens
-- By default table data should be sorted in reverse chronological order (newest first)
-- Users should be able to sort by the **Date** column only and be able to toggle between reverse chronological and chronological order
-- After fetching new entries, table should be re-sorted according to currently selected sorting order
+- [X] Handle the loading state
+- [X] Handle the error state (every second call to fetch users or projects will result in an error)
+- [X] Make sure the table can be browsed also on smaller screens
+- [X] By default table data should be sorted in reverse chronological order (newest first)
+- [X] Users should be able to sort by the **Date** column only and be able to toggle between reverse chronological and chronological order
+- [X] After fetching new entries, table should be re-sorted according to currently selected sorting order
 
 ## Screenshots
 
